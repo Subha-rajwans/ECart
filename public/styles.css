@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+}
+
+
+/*top bar */
+.nav-wapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.left-side{
+    font-size: 25px
+}
+
+.right-side{
+    display: flex;
+}
+
+.nav-wapper > .right-side >div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.1s;  
+}
+
+.nav-link-wapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+/*
+.nav-link-wapper :hover{
+        border-bottom: 1px solid black;
+}*/
+
+.nav-link-wapper a:hover{
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+    color: black !important;
+}

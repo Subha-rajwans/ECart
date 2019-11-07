@@ -1,0 +1,61 @@
+<html>
+    <head>
+
+        <title>home page</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        
+        <div class="container">
+
+            <div class="nav-wapper">
+                
+                <div class="left-side">
+                    <div class="brand">
+                        <div>PRODUCTS</div>
+                    </div>
+                </div>
+    
+                <div class="right-side">
+                    <div class="nav-link-wapper ">
+                        <a href="home.html">Home</a>
+                    </div>
+
+                    <div class="nav-link-wapper ">
+                        <a href="addproducts.html">Add products</a>
+                    </div>
+
+                    <div class="nav-link-wapper">
+                            <a href="cart.html">cart</a>
+                    </div>
+
+                    <div class="nav-link-wapper  active-nav-link">
+                        <a href="login.html">Login/Sign up</a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div id='divloginform' style="margin-left: 40px;margin-top: 20px;">
+                    <form id="formlogin">
+                      <label>Username </label><emsp>
+                      <input type="text" id="inputUsername" placeholder="Enter Username" required></emsp>
+                      <br><br>
+                      <label>Password </label><emsp>
+                      <input type="password" id="inputPassword" placeholder="Enter Password " required></emsp>
+                      <br><br>
+                      <input type="button" value="Login" onclick="validate()">
+                      <p id="errormessage"></p>
+                      </form>
+            </div>
+
+        <div id="divgotoregister"></div>
+
+    
+
+    </body>
+    <script src="login.js" type="text/javascript"></script> 
+
+</html>
